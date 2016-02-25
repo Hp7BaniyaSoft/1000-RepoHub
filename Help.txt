@@ -1,0 +1,9 @@
+git config --global --replace-all user.name "hp7baniyasoft"
+git config user.name
+
+git config --global --replace-all user.email "hp7ban@gmail.com"
+git config user.email
+
+ssh-keygen -t rsa -b 4096 -C "hp7ban@gmail.com"
+clip < id_rsa.pub
+
